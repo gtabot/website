@@ -1,0 +1,19 @@
+---
+---
+<footer>
+    <sapn id="copyright">&copy; Gregg Tabot <span id="copyright-year"></span>.</span>
+</footer>
+
+<style>
+    footer {
+        height: 2em;
+        width: 100%;
+        background-color: red;
+        text-align: center
+    }
+</style>
+
+<script>
+    document.querySelector("#copyright-year").textContent = new Date().getFullYear().toString();
+</script>
+

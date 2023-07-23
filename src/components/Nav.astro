@@ -1,0 +1,54 @@
+---
+const navData = [
+    { name: "About Gregg", path: "/" },
+    { name: "Blog", path: "/blog/" },
+    { name: "Projects", path: "/projects/" },
+    { name: "Services", path: "/services/" },
+    { name: "Resume", path: "/resume/" }
+]
+---
+<nav>
+    <div class="navbar">
+        <a href="/" class="nav-title">TheyCallMeGTab.dev</a>
+        <ul>
+            {
+                navData.map(item => (
+                    <li><a href={item.path}>{item.name}</a></li>
+                ))
+            }
+        </ul>
+    </div>
+</nav>
+
+<style>
+    nav {
+        background-color: #f2f2f2;
+        padding: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav-title {
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    ul li {
+        margin-left: 1em;
+    }
+
+    ul li:first-child {
+        margin-left: 0;
+    }
+</style>
