@@ -1,5 +1,5 @@
 ---
-const navData = [
+const navItems = [
     { name: "About", path: "/about" },
     { name: "Blog", path: "/blog" },
     { name: "Projects", path: "/projects" },
@@ -18,7 +18,7 @@ const navData = [
         </button>
         <ul id="full-nav">
             {
-                navData.map(item => (
+                navItems.map(item => (
                     <li><a href={item.path}>{item.name}</a></li>
                 ))
             }
@@ -26,18 +26,20 @@ const navData = [
     </div>
     <ul id="mobile-nav">
         {
-            navData.map(item => (
+            navItems.map(item => (
                     <li><a href={item.path}>{item.name}</a></li>
             ))
         }
     </ul>
 </nav>
 
-<style>
+<style lang="scss">
+    @import '../styles/variables';
+
     nav {
-        background-color: #000000;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 500;
+        background-color: $nav-background-color;
+        font-family: $nav-font;
+        font-weight: $nav-font-weight;
     }
 
     .navbar {
@@ -45,21 +47,22 @@ const navData = [
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
-        max-width: 1024px;
+        max-width: $main-width;
+        height: 2.75em;
     }
 
     .nav-title {
-        font-family: 'Tektur', cursive;
-        font-weight: bold;
-        font-size: 21px;
+        font-family: $header-font;
+        font-weight: $header-font-weight;
+        font-size: $header-font-size;
         text-decoration: none;
-        color: #ffffff;
-        padding: 7px 14px;
+        color: $nav-text-color;
+        padding: 4px 14px;
         border-radius: 5px;
     }
 
     .nav-title:hover {
-        background-color: #404040;
+        background-color: $nav-hover-color;
     }
 
     ul {
@@ -85,16 +88,16 @@ const navData = [
     }
 
     ul li:hover {
-        background-color: #404040;
+        background-color: $nav-hover-color;
     }
 
     ul li.active {
-        background-color: #404040;
+        background-color: $nav-hover-color;
     }
 
     ul li a {
         text-decoration: none;
-        color: #ffffff;
+        color: $nav-text-color;
         display: inline-block;
         padding: 7px 14px;
     }
@@ -112,7 +115,8 @@ const navData = [
         width: 25px;
         height: 3px;
         margin-bottom: 5px;
-        background-color: #ffffff;
+        background-color: $nav-text-color;
+        border-radius: 2px;
     }
 
     @media screen and (max-width: 768px) {
@@ -127,7 +131,7 @@ const navData = [
         ul#mobile-nav.nav-open {
             display: flex;
             flex-direction: column;
-            padding: 0px 0px 7px 0px;
+            padding: 0px 0px 4px 0px;
             margin: 0px;
         }
     }
