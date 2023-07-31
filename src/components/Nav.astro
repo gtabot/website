@@ -16,7 +16,7 @@ const navData = [
             <span></span>
             <span></span>
         </button>
-        <ul>
+        <ul id="full-nav">
             {
                 navData.map(item => (
                     <li><a href={item.path}>{item.name}</a></li>
@@ -24,6 +24,13 @@ const navData = [
             }
         </ul>
     </div>
+    <ul id="mobile-nav">
+        {
+            navData.map(item => (
+                    <li><a href={item.path}>{item.name}</a></li>
+            ))
+        }
+    </ul>
 </nav>
 
 <style>
@@ -55,17 +62,28 @@ const navData = [
         display: flex;
     }
 
-    ul li {
+    ul#full-nav li {
         margin-left: 1em;
-        background-color: #;
         border-radius: 5px;
     }
 
-    ul li:first-child {
+    ul#full-nav li:first-child {
         margin-left: 0;
     }
 
+    ul#mobile-nav {
+        display: none;
+    }
+
+    ul#mobile-nav li a {
+        width: 100%;
+    }
+
     ul li:hover {
+        background-color: #404040;
+    }
+
+    ul li.active {
         background-color: #404040;
     }
 
@@ -101,18 +119,32 @@ const navData = [
             display: block;
         }
 
-        ul.nav-open {
+        ul#mobile-nav.nav-open {
             display: flex;
             flex-direction: column;
+            padding: 0px;
+            margin: 0px;
         }
     }
 </style>
 
 <script>
+    const currentPath = window.location.pathname;
+    const navItems = document.querySelectorAll('ul li');
+
+    navItems.forEach(item => {
+        const link = item.querySelector('a');
+        if (link.getAttribute('href') === currentPath) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+
     const hamburgerButton = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('ul');
+    const mobileNavMenu = document.querySelector('#mobile-nav');
 
     hamburgerButton.addEventListener('click', () => {
-        navMenu.classList.toggle('nav-open');
+        mobileNavMenu.classList.toggle('nav-open');
     });
 </script>
