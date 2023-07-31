@@ -1,6 +1,6 @@
 ---
 const navData = [
-    { name: "About", path: "/" },
+    { name: "About", path: "/about" },
     { name: "Blog", path: "/blog" },
     { name: "Projects", path: "/projects" },
     { name: "Services", path: "/services" },
@@ -36,6 +36,8 @@ const navData = [
 <style>
     nav {
         background-color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
     }
 
     .navbar {
@@ -43,10 +45,13 @@ const navData = [
         align-items: center;
         justify-content: space-between;
         margin: 0 auto;
+        max-width: 1024px;
     }
 
     .nav-title {
+        font-family: 'Tektur', cursive;
         font-weight: bold;
+        font-size: 21px;
         text-decoration: none;
         color: #ffffff;
         padding: 7px 14px;
@@ -122,7 +127,7 @@ const navData = [
         ul#mobile-nav.nav-open {
             display: flex;
             flex-direction: column;
-            padding: 0px;
+            padding: 0px 0px 7px 0px;
             margin: 0px;
         }
     }
