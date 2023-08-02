@@ -1,15 +1,25 @@
 ---
 ---
 <footer>
-    <sapn id="copyright">&copy; Gregg Tabot <span id="copyright-year"></span>.</span>
+    <p id="copyright">&copy; <span id="copyright-year"></span> Gregg Tabot. All rights reserved.</p>
 </footer>
 
-<style>
+<style lang="scss">
+    @import '../styles/variables';
+
     footer {
-        height: 2em;
+        height: $footer-height;
         width: 100%;
-        background-color: red;
-        text-align: center
+        background-color: $footer-background-color;
+        color: $footer-text-color;
+        text-align: center;
+    }
+
+    footer p {
+        margin: 0;
+        line-height: $footer-height;
+        font-family: $footer-font;
+        font-size: $footer-font-size;
     }
 </style>
 

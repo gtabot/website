@@ -8,9 +8,9 @@ const { title, description } = Astro.props;
 <html lang="en">
     <Head title={title} description={description} ></Head>
     <body>
-        <Nav></Nav>
-        <slot />
-        <Footer></Footer>
+        <Nav />
+        <main><slot /></main>
+        <Footer />
     </body>
 </html>
 
@@ -21,6 +21,11 @@ const { title, description } = Astro.props;
         margin: 0;
         padding: 0;
         background-color: $background-color;
+        display:grid;
+        grid-template-rows:auto 1fr auto;
+        grid-template-columns:100%;
+        min-height:100vh;
+        min-height:100svh;
     }
 </style>
 
