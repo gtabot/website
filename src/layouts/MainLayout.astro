@@ -10,7 +10,7 @@ const { title, description } = Astro.props;
     <body>
         <Nav />
         <main class="frosted-glass">
-            <slot />
+            <div id="content"><slot /></div>
         </main>
         <Footer />
     </body>
@@ -27,13 +27,12 @@ const { title, description } = Astro.props;
         grid-template-columns: 100%;
         min-height: 100svh;
         position: absolute;
-        top: 0;
         width: 100%
     }
 
     main {
         max-width: $main-width;
-        margin: 2.75em auto 0 auto;
+        margin: 2.75em auto -2em auto;
         width: 100%;
         padding: 1em;
         box-sizing: border-box;
