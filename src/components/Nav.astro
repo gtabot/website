@@ -32,14 +32,17 @@ const navItems = [
         }
     </ul>
 </nav>
+<div id="nav-placeholder" />
 
 <style lang="scss">
-    @import '../styles/variables';
+    @import '../styles/variables.scss';
 
     nav {
         background-color: $nav-background-color;
         font-family: $nav-font;
         font-weight: $nav-font-weight;
+        position: fixed;
+        width: 100%;
     }
 
     .navbar {
@@ -52,9 +55,9 @@ const navItems = [
     }
 
     .nav-title {
-        font-family: $header-font;
-        font-weight: $header-font-weight;
-        font-size: $header-font-size;
+        font-family: $nav-title-font;
+        font-weight: $nav-title-font-weight;
+        font-size: $nav-title-font-size;
         text-decoration: none;
         color: $nav-text-color;
         padding: 4px 14px;

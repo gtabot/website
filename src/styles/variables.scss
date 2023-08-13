@@ -7,13 +7,16 @@ $nav-hover-color: rgb(64, 64, 64);
 $nav-text-color: rgb(255, 255, 255);
 
 /* Fonts */
+$body-font: 'Open Sans', sans-serif;
 $footer-font: serif;
 $footer-font-size: 0.9em;
 $header-font: 'Tektur', cursive;
-$header-font-size: 21px;
 $header-font-weight: bold;
 $nav-font: 'Open Sans', sans-serif;
 $nav-font-weight: 600;
+$nav-title-font: $header-font;
+$nav-title-font-size: 21px;
+$nav-title-font-weight: $header-font-weight;
 
 
 /* Sizes */

@@ -15,17 +15,23 @@ const { title, description } = Astro.props;
 </html>
 
 <style lang="scss">
-    @import '../styles/variables';
+    @import '../styles/variables.scss';
 
     body {
         margin: 0;
-        padding: 0;
         background-color: $background-color;
-        display:grid;
-        grid-template-rows:auto 1fr auto;
-        grid-template-columns:100%;
-        min-height:100vh;
-        min-height:100svh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 100%;
+        min-height: 100svh;
+    }
+
+    main {
+        max-width: $main-width;
+        margin: 2.75em auto 0 auto;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
     }
 </style>
 

@@ -1,0 +1,71 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Page Not Found">
+	<div id="container">
+		<div id="_404">
+			<div id="text">
+				<h1 class="large">404 Error</h1>
+				<p id="page_not_found">The page you're looking for is not found</p>
+				<strong>Buuuut since you're already here... you may be interested in these other pages:</strong>
+				<ul>
+					<li><p><strong class="other-page-title">Random Blog Post:</strong> <a href="#" class="other-page-link">Title of a Random Blog Post</a></p></li>
+					<li><p><strong class="other-page-title">Random Project:</strong> <a href="#" class="other-page-link">Title of a Random Project</a></p></li>
+				</ul>
+			</div>
+			<div id="image">
+				<img src="/images/404.png">
+			</div>
+		</div>
+	</div>
+</MainLayout>
+
+<style lang="scss">
+	@import '../styles/global.scss';
+
+	#_404 {
+		display: flex;
+		align-items: center;
+	}
+
+	#_404 #text {
+		flex: 1;
+	}
+
+	#_404 #text h1 {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#_404 #text #page_not_found {
+		text-align: center;
+		margin-bottom: 3em;
+	}
+
+	#_404 #image {
+		flex: 1;
+		text-align: center;
+	}
+
+	#_404 #image img {
+		width: 75%;
+		max-width: 350px;
+		border-radius: 25%;
+		margin: 1em 0;
+	}
+
+	.other-page-title {
+		font-weight: 600;
+	}
+
+	@media (max-width: 768px) {
+		#_404 {
+			flex-direction: column;
+		}
+
+		.other-page-title, .other-page-link {
+			display: block;
+		}
+	}
+</style>
