@@ -5,11 +5,13 @@ import Footer from "../components/Footer.astro";
 
 const { title, description } = Astro.props;
 ---
-<html lang="en">
+<html id="particles-js">
     <Head title={title} description={description} ></Head>
     <body>
         <Nav />
-        <main><slot /></main>
+        <main class="frosted-glass">
+            <slot />
+        </main>
         <Footer />
     </body>
 </html>
@@ -24,6 +26,9 @@ const { title, description } = Astro.props;
         grid-template-rows: auto 1fr auto;
         grid-template-columns: 100%;
         min-height: 100svh;
+        position: absolute;
+        top: 0;
+        width: 100%
     }
 
     main {
@@ -33,5 +38,82 @@ const { title, description } = Astro.props;
         padding: 1em;
         box-sizing: border-box;
     }
+
+    .frosted-glass {
+        backdrop-filter: blur(3px);
+        box-shadow: 0px 0px 20px -6px rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media screen and (max-width: 768px) {
+        .frosted-glass {
+            background-color: rgba(213, 225, 237, 1);
+        }
+    }
 </style>
 
+<script>
+    import "../js/particles.js";
+
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 65,
+                "density": {
+                    "enable": true,
+                    "value_area": 300
+                }
+            },
+            "color": {
+                "value": "#000000"
+            },
+            "shape": {
+                "type": "circle",
+            },
+            "opacity": {
+                "value": 0.25
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 60,
+                "color": "#000000",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 4,
+            }
+        },
+        "interactivity": {
+            "detect_on": "window",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 100,
+                    "line_linked": {
+                        "opacity": 0.4
+                    }
+                },
+                "push": {
+                    "particles_nb": 1
+                },
+            }
+        },
+        "retina_detect": true
+    });
+</script>
