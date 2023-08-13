@@ -1,8 +1,16 @@
-# Picking Prospects for the 2023 NBA Draft
-```
-Date:   June 23, 2023
-Tags:   nba draft, nba, basketball, predictions, Washington Wizards
-```
+---
+published: false
+date: 2023-06-23
+title: Picking Prospects for the 2023 NBA Draft
+description: Gregg Tabot gets in the mindset of each NBA GM and makes a selection for every pick in the 2023 NBA draft.
+tags: ["nba draft", "nba", "basketball", "predictions", "Washington Wizards"]
+image: {
+  src: "/images/blog/001-header.png",
+  alt: "Picking Prospects for the 2023 NBA Draft"
+}
+layout: "../../../layouts/BlogPostLayout.astro"
+permalink: ":year/:month/:day/:slug.html"
+---
 
 Earlier this January, I found myself in the extremely lucky and fortunate position to be working as a Machine Learning Consultant/Analyst for a professional sports team, my favorite team in all of sports, the [Washington Wizards](https://en.wikipedia.org/wiki/Washington_Wizards). At the moment, I am still working with them and am under an NDA contract so I can't speak much about that work specifically, at the moment.
 

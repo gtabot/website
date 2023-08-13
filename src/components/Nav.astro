@@ -56,9 +56,9 @@ const navItems = [
     }
 
     .nav-title {
-        font-family: $nav-title-font;
-        font-weight: $nav-title-font-weight;
-        font-size: $nav-title-font-size;
+        font-family: $title-font;
+        font-weight: $title-font-weight;
+        font-size: $title-font-size;
         text-decoration: none;
         color: $nav-text-color;
         padding: 4px 14px;
@@ -143,7 +143,7 @@ const navItems = [
 
 <script>
     const currentPath = window.location.pathname;
-    const navItems = document.querySelectorAll('ul li');
+    const navItems = document.querySelectorAll('nav ul li');
 
     navItems.forEach(item => {
         const link = item.querySelector('a');

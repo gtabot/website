@@ -10,13 +10,14 @@ const { title, description } = Astro.props;
     <body>
         <Nav />
         <main class="frosted-glass">
-            <div id="content"><slot /></div>
+            <slot />
         </main>
         <Footer />
     </body>
 </html>
 
 <style lang="scss">
+    @import '../styles/global.scss';
     @import '../styles/variables.scss';
 
     body {

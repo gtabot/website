@@ -1,0 +1,22 @@
+---
+import Main from "./MainLayout.astro";
+
+const { title, description, frontmatter } = Astro.props;
+---
+<Main title={title} description={description}>
+    <div id="blog-header">
+        <h1>{frontmatter.title}</h1>
+        <img src={frontmatter.image.src} />
+    </div>
+    <div id="blog-content">
+        <slot />
+    </div>
+</Main>
+
+<style>
+    #blog-header img {
+        width: 100%;
+        border-radius: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+</style>
