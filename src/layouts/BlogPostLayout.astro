@@ -6,7 +6,22 @@ const { title, description, frontmatter } = Astro.props;
 <Main title={title} description={description}>
     <div id="blog-header">
         <h1>{frontmatter.title}</h1>
-        <img src={frontmatter.image.src} />
+        <div class="meta">
+            <div id="author"><strong>Author:</strong> {frontmatter.author}</div>
+            <div id="date"><strong>Date:</strong> {new Date(frontmatter.date).toLocaleDateString()}</div>
+            <div id="tags">
+                <strong>Tags:</strong>
+                {frontmatter.tags.map((tag, index) => (
+                        <span key={tag}>
+                            <a href={`/blog/tag/${tag}`}>{tag}</a>{index !== frontmatter.tags.length - 1 && ", "}
+                        </span>
+                ))}
+            </div>
+        </div>
+        <div class="image">
+            <img src={frontmatter.header_image.src} />
+            <p class="image-credit">Image Credit: Gregg Tabot / Stable Diffusion</p>
+        </div>
     </div>
     <div id="blog-content">
         <slot />
@@ -14,9 +29,16 @@ const { title, description, frontmatter } = Astro.props;
 </Main>
 
 <style>
-    #blog-header img {
+    #blog-header .meta {
+        margin-bottom: 1em;
+    }
+
+    #blog-header .meta div {
+        display: block; /* Set the spans as block-level elements */
+    }
+
+    #blog-header .image img {
         width: 100%;
-        border-radius: 30px;
         border: 1px solid rgba(0, 0, 0, 0.5);
     }
 </style>
