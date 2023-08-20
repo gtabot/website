@@ -1,0 +1,71 @@
+---
+---
+
+<div id="blog-prev-next">
+    <a href="#" title="Description of blog post goes here">
+        <div id="blog-prev" class="blog-div" style="background-image: url(http://localhost:3000/images/blog/001-hero.png)">
+            <span>← Previous Blog Post</span>
+        </div>
+    </a>
+    <a id="blog-all" class="blog-link" href="/blog">All Blog Posts</a>
+    <a href="#" title="Description of blog post goes here">
+        <div id="blog-next" class="blog-div" style="background-image: url(http://localhost:3000/images/blog/001-hero.png)">
+            <span>Next Blog Post →</span>
+        </div>
+    </a>
+</div>
+
+<style lang="scss">
+  @import '../styles/variables.scss';
+
+  #blog-prev-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #blog-prev-next a {
+    text-decoration: none;
+  }
+
+  .blog-link, a .blog-div {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .blog-div {
+    height: 100px;
+    width: 240px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $blog-link-text-color;
+    font-size: 1.25em;
+  }
+
+  .blog-div span {
+    text-shadow: 3px 1px 0 rgb(0, 0, 0);
+  }
+
+  #blog-all {
+    color: initial;
+    font-size: 1.1em;
+  }
+
+  @media (max-width: 768px) {
+    #blog-prev-next {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1em;
+    }
+
+    #blog-prev {
+      margin-bottom: 0.5em;
+    }
+
+    #blog-all {
+      display: none;
+    }
+  }
+</style>

@@ -1,11 +1,16 @@
 ---
 import Main from "./MainLayout.astro";
+import BlogPrevNextPost from "../components/BlogPrevNextPost.astro";
 
 const { title, description, frontmatter } = Astro.props;
 ---
 <Main title={title} description={description}>
     <div id="blog-header">
         <h1>{frontmatter.title}</h1>
+        <div class="image">
+            <img src={frontmatter.hero_image.src} />
+            <p class="image-credit">{frontmatter.hero_image.credit}</p>
+        </div>
         <div class="meta">
             <div id="author"><strong>Author:</strong> {frontmatter.author}</div>
             <div id="date"><strong>Date:</strong> {new Date(frontmatter.date).toLocaleDateString()}</div>
@@ -18,18 +23,21 @@ const { title, description, frontmatter } = Astro.props;
                 ))}
             </div>
         </div>
-        <div class="image">
-            <img src={frontmatter.header_image.src} />
-            <p class="image-credit">Image Credit: Gregg Tabot / Stable Diffusion</p>
-        </div>
     </div>
     <div id="blog-content">
         <slot />
     </div>
+    <hr>
+    <BlogPrevNextPost />
 </Main>
 
-<style>
+<style lang="scss">
+    h1 {
+        margin: 0 0 0.5em 0;
+    }
+
     #blog-header .meta {
+        margin-top: -1em;
         margin-bottom: 1em;
     }
 
@@ -40,5 +48,13 @@ const { title, description, frontmatter } = Astro.props;
     #blog-header .image img {
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    #blog-content p {
+        text-align: justify;
+    }
+
+    hr {
+        margin: 2em 0 1em 0;
     }
 </style>

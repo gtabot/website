@@ -4,6 +4,10 @@ body, p {
     font-family: $body-font;
 }
 
+h1 {
+    font-size: 2.3em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
     font-weight: $header-font-weight;
@@ -14,9 +18,14 @@ h1.large {
     font-size: 5em;
 }
 
+hr {
+    border: solid 0.5px rgba(0, 0, 0, 0.33);
+    margin: 1em 0;
+}
+
 .data-table-overflow {
     overflow-x: auto;
-    font-size: 90%;
+    font-size: 95%;
     font-family: monospace;
     margin-bottom: 1em;
     border-top: dashed 1px $table-overflow-border-color;
@@ -35,6 +44,10 @@ h1.large {
     padding: 0 5px;
 }
 
+.data-table-overflow summary {
+    cursor: pointer;
+}
+
 .image-credit {
     text-align: right;
     font-size: 75%;
@@ -48,8 +61,4 @@ h1.large {
 
 .table-highlight-row td {
     font-weight: bold;
-}
-
-#blog-content p {
-    text-align: justify;
 }
