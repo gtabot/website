@@ -1,9 +1,10 @@
 ---
-published: false
-layout: ../../../layouts/BlogPostLayout.astro
+published: true
+layout: ../../layouts/BlogPostLayout.astro
+slug: "picking-prospects-2023-nba-draft"
 title: Picking Prospects for the 2023 NBA Draft
 author: Gregg Tabot
-date: 2023-06-23
+date: "2023-06-23"
 tags: [NBA Draft, NBA, basketball, predictions, sports]
 header_image: { src: /images/blog/001-header.png }
 ---
@@ -15,7 +16,6 @@ However, while working with the team, I became very familiar with the 2023 draft
 The following picks are my own, personal opinion and <strong><u>are not representative of any contributions I've made with the Wizards</u></strong>. I plan to complete the same exercise over the upcoming years and evaluate my personal picks against each team's actual selection. Here they are:
 
 ## Lottery Results
-
 <div class="data-table-overflow">
     <table>
         <tr>
@@ -133,7 +133,6 @@ For the most part, my personal pick was of the same position of the actual pick.
 I also want to note that I have not selected Cam Whitmore as any of my personal picks in the lottery. And despite his very high mock draft and online big board rankings, I found it very validating that the other lottery teams agreed with me in not selecting him.
 
 ## Rest of First Round Results
-
 <div class="data-table-overflow">
     <table>
         <tr>
@@ -263,7 +262,6 @@ Rounding out the first round, I was only in sync with the team GMs in one select
 Going into the second round, beauty is more in the eye of the beholder and team strategy starts to come more into play. I don't expect to match many more picks, however I'm continuing to make selections to see if the players who I would have picked would've fared better than the ones that were.
 
 ## Second Round
-
 <div class="data-table-overflow">
     <table>
         <tr>
