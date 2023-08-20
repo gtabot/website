@@ -14,6 +14,27 @@ h1.large {
     font-size: 5em;
 }
 
+.data-table-overflow {
+    overflow-x: auto;
+    font-size: 90%;
+    font-family: monospace;
+    margin-bottom: 1em;
+    border-top: dashed 1px $table-overflow-border-color;
+    border-bottom: dashed 1px $table-overflow-border-color;
+}
+
+.data-table-overflow table {
+    min-width: 960px;
+}
+
+.data-table-overflow th {
+    text-align: left;
+}
+
+.data-table-overflow th, td {
+    padding: 0 5px;
+}
+
 .image-credit {
     text-align: right;
     font-size: 75%;

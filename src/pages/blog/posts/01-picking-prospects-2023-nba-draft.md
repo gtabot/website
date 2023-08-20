@@ -5,9 +5,7 @@ title: Picking Prospects for the 2023 NBA Draft
 author: Gregg Tabot
 date: 2023-06-23
 tags: [NBA Draft, NBA, basketball, predictions, sports]
-header_image: {
-    src: /images/blog/001-header.png
-}
+header_image: { src: /images/blog/001-header.png }
 ---
 
 Earlier this January, I found myself in the extremely lucky and fortunate position to be working as a Machine Learning Consultant/Analyst for a professional sports team, my favorite team of all of sports, the [Washington Wizards](https://en.wikipedia.org/wiki/Washington_Wizards). At the moment, I am still working with them and am under an NDA contract so I can't speak much about that work specifically.
@@ -17,22 +15,116 @@ However, while working with the team, I became very familiar with the 2023 draft
 The following picks are my own, personal opinion and <strong><u>are not representative of any contributions I've made with the Wizards</u></strong>. I plan to complete the same exercise over the upcoming years and evaluate my personal picks against each team's actual selection. Here they are:
 
 ## Lottery Results
-| Draft Position        | Picked For             | Actual Pick                                                                     | Personal Pick                | Notes                                                                                                                                             |
-|-----------------------|------------------------|---------------------------------------------------------------------------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| <tr class="table-highlight-row"><td>1</td><td>San Antonio Spurs</td><td>[Victor Wembanyama](https://www.tankathon.com/players/victor-wembanyama) (PF/C)</td><td>Victor Wembanyama (PF/C)</td><td></td></tr> |
-| 2                     | Charlotte Hornets      | [Brandon Miller](https://www.tankathon.com/players/brandon-miller) (SG/SF)      | Scoot Henderson (PG)         | <details><summary>Expand</summary><br>I personally think this was a mistake by Charlotte not choosing Scoot here.</details>                       |
-| <tr class="table-highlight-row"><td>3</td><td>Portland Trail Blazers</td><td>[Scoot Henderson](https://www.tankathon.com/players/scoot-henderson) (PG)</td><td>**Scoot Henderson (PG)**</td><td><details><summary>Expand</summary><br>The right move. Choose the best player available. Figure it out later.</details></td></tr> |
-| <tr class="table-highlight-row"><td>4</td><td>Houston Rockets</td><td>[Amen Thompson](https://www.tankathon.com/players/amen-thompson) (PG/SG)</td><td>**Amen Thompson (PG/SG)**</td><td></td></tr> |
-| <tr class="table-highlight-row"><td>5</td><td>Detroit Pistons</td><td>[Ausar Thompson](https://www.tankathon.com/players/ausar-thompson) (SG/SF)</td><td>**Ausar Thompson (SG/SF)**</td><td></td></tr> |
-| 6                     | Orlando Magic          | [Anthony Black](https://www.tankathon.com/players/anthony-black) (PG/SG)        | Grady Dick (SG/SF)           | <details><summary>Expand</summary><br>One of my favorite players in the draft. Was hoping he'd find his way to Washington</details>               |
-| 7                     | Washington Wizards     | [Bilal Coulibaly](https://www.tankathon.com/players/nilal-coulibaly) (SG/SF)    | Taylor Hendricks (PF)        | <details><summary>Expand</summary><br>Pick makes sense given the direction the team is going and his upside. But risky in my opinion.</details>   |
-| <tr class="table-highlight-row"><td>8</td><td>Indiana Pacers</td><td>[Jarace Walker](https://www.tankathon.com/players/jarace-walker) (PF)</td><td>**Jarace Walker (PF)**</td><td></td></tr> |
-| 9                     | Utah Jazz              | [Taylor Hendricks](https://www.tankathon.com/players/taylor-hendricks) (PF)     | Grady Dick (SG/SF)           |                                                                                                                                                   |
-| 10                    | Oklahoma City Thunder  | [Cason Wallace](https://www.tankathon.com/players/cason-wallace) (PG/SG)        | Grady Dick (SG/SF)           |                                                                                                                                                   |
-| 11                    | Orlando Magic          | [Jett Howard](https://www.tankathon.com/players/jett-howard) (SG/SF)            | Grady Dick (SG/SF)           | <details><summary>Expand</summary><br>If you want shooting (and Jett doesn't do much else) I don't see how you don't go with Dick here.</details> |
-| <tr class="table-highlight-row"><td>12</td><td>Dallas Mavericks</td><td>[Dereck Lively](https://www.tankathon.com/players/dereck-lively-ii) (C)</td><td>**Dereck Lively (C)**</td><td><details><summary>Expand</summary><br>Probably my best fit in the lottery (outside of Victor to the Spurs).</details></td></tr> |
-| 13                    | Toronto Raptors        | [Grady Dick](https://www.tankathon.com/players/grady-dick) (SG/SF)              | Keyonte George (SG)          |                                                                                                                                                   |
-| 14                    | New Orleans Pelicans   | [Jordan Hawkins](https://www.tankathon.com/players/jordan-hawkins) (SG)         | Kobe Bufkin (PG/SG)          |                                                                                                                                                   |
+
+<div class="data-table-overflow">
+    <table>
+        <tr>
+            <th>Draft Position</th>
+            <th style="width: 25%">Picked For</th>
+            <th style="width: 25%">Actual Pick</th>
+            <th style="width: 25%">Personal Pick</th>
+            <th style="width: 25%">Notes</th>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>1</td>
+            <td>San Antonio Spurs</td>
+            <td><a href="https://www.tankathon.com/players/victor-wembanyama">Victor Wembanyama</a> (PF/C)</td>
+            <td>Victor Wembanyama (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Charlotte Hornets</td>
+            <td><a href="https://www.tankathon.com/players/brandon-miller">Brandon Miller</a> (SG/SF)</td>
+            <td>Scoot Henderson (PG)</td>
+            <td><details><summary>Expand</summary><br>I personally think this was a mistake by Charlotte not choosing Scoot here.</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>3</td>
+            <td>Portland Trail Blazers</td>
+            <td><a href="https://www.tankathon.com/players/scoot-henderson">Scoot Henderson</a> (PG)</td>
+            <td>Scoot Henderson (PG)</td>
+            <td><details><summary>Expand</summary><br>The right move. Choose the best player available. Figure it out later.</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>4</td>
+            <td>Houston Rockets</td>
+            <td><a href="https://www.tankathon.com/players/amen-thompson">Amen Thompson</a> (PG/SG)</td>
+            <td>Amen Thompson (PG/SG)</td>
+            <td></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>5</td>
+            <td>Detroit Pistons</td>
+            <td><a href="https://www.tankathon.com/players/ausar-thompson">Ausar Thompson</a> (SG/SF)</td>
+            <td>Ausar Thompson (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Orlando Magic</td>
+            <td><a href="https://www.tankathon.com/players/anthony-black">Anthony Black</a> (PG/SG)</td>
+            <td>Grady Dick (SG/SF)</td>
+            <td><details><summary>Expand</summary><br>One of my favorite players in the draft. Was hoping he'd find his way to Washington</details></td>
+        </tr>
+            <tr>
+            <td>7</td>
+            <td>Washington Wizards</td>
+            <td><a href="https://www.tankathon.com/players/nilal-coulibaly">Bilal Coulibaly</a> (SG/SF)</td>
+            <td>Taylor Hendricks (PF)</td>
+            <td><details><summary>Expand</summary><br>Pick makes sense given the direction the team is going and his upside. But risky in my opinion.</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>8</td>
+            <td>Indiana Pacers</td>
+            <td><a href="https://www.tankathon.com/players/jarace-walker">Jarace Walker</a> (PF)</td>
+            <td>Jarace Walker (PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Utah Jazz</td>
+            <td><a href="https://www.tankathon.com/players/taylor-hendricks">Taylor Hendricks</a> (PF)</td>
+            <td>Grady Dick (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Oklahoma City Thunder</td>
+            <td><a href="https://www.tankathon.com/players/cason-wallace">Cason Wallace</a> (PG/SG)</td>
+            <td>Grady Dick (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Orlando Magic</td>
+            <td><a href="https://www.tankathon.com/players/jett-howard">Jett Howard</a> (SG/SF)</td>
+            <td>Grady Dick (SG/SF)</td>
+            <td><details><summary>Expand</summary><br>If you want shooting (and Jett doesn't do much else) I don't see how you don't go with Dick here.</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>12</td>
+            <td>Dallas Mavericks</td>
+            <td><a href="https://www.tankathon.com/players/dereck-lively-ii">Dereck Lively</a> (C)</td>
+            <td>Dereck Lively (C)</td>
+            <td><details><summary>Expand</summary><br>Probably my best fit in the lottery (outside of Victor to the Spurs).</details></td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Toronto Raptors</td>
+            <td><a href="https://www.tankathon.com/players/grady-dick">Grady Dick</a> (SG/SF)</td>
+            <td>Keyonte George (SG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>New Orleans Pelicans</td>
+            <td><a href="https://www.tankathon.com/players/jordan-hawkins">Jordan Hawkins</a> (SG)</td>
+            <td>Kobe Bufkin (PG/SG)</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 Taking a moment to assess my lottery results, I was in sync with 6 out of the 14 picks. Whether or not that's a good or bad thing we'll have to wait a few years to find out, but for now I'll interpret that stat as I'm a sane, logical drafter (so far...)
 
@@ -41,66 +133,351 @@ For the most part, my personal pick was of the same position of the actual pick.
 I also want to note that I have not selected Cam Whitmore as any of my personal picks in the lottery. And despite his very high mock draft and online big board rankings, I found it very validating that the other lottery teams agreed with me in not selecting him.
 
 ## Rest of First Round Results
-| Draft Position | Picked For             | Actual Pick                                                                               | Personal Pick               | Notes                                                                                                                                                                                                                          |
-|----------------|------------------------|-------------------------------------------------------------------------------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 15             | Atlanta Hawks          | [Kobe Bufkin](https://www.tankathon.com/players/kobe-bufkin) (PG/SG)                      | Cameron Whitmore (SG)       | <details><summary>Expand</summary><br>I was lower on Bufkin then most and I really don't see him thriving in this situation...</details>                                                                                       |
-| 16             | Utah Jazz              | [Keyonte George](https://www.tankathon.com/players/keyonte-george) (SG)                   | Jalen Hood-Schifino (PG/SG) |                                                                                                                                                                                                                                |
-| 17             | Los Angeles Lakers     | [Jalen Hood-Schifino](https://www.tankathon.com/players/jalen-hood-schifino) (PG/SG)      | Cameron Whitmore (SG)       |                                                                                                                                                                                                                                |
-| 18             | Miami Heat             | [Jaime Jaquez](https://www.tankathon.com/players/jaime-jaquez) (SF)                       | Noah Clowney (PF)           |                                                                                                                                                                                                                                |
-| 19             | Golden State Warriors  | [Brandin Podziemski](https://www.tankathon.com/players/brandin-podziemski) (SG)           | Leonard Miller (SF/PF)      | <details><summary>Expand</summary><br>Another one of my favorite players in the draft. Podz's strengths and weaknesses fit right into the Warrior's playing style.</details>                                                   |
-| <tr class="table-highlight-row"><td>20</td><td>Houston Rockets</td><td>[Cameron Whitmore](https://www.tankathon.com/players/cam-whitmore) (SF)</td><td>**Cameron Whitmore (SF)**</td><td><details><summary>Expand</summary><br>TBH, I never bought the Cam Whitmore hype, but if you're Houston you have to be ecstatic you get him at 20. Does he progress there though...?</details></td></tr> |
-| 21             | Brooklyn Nets          | [Noah Clowney](https://www.tankathon.com/players/noah-clowney) (PF)                       | Brice Sensabaugh (SF/PF)    |                                                                                                                                                                                                                                |
-| 22             | Brooklyn Nets          | [Dariq Whitehead](https://www.tankathon.com/players/dariq-whitehead) (SG/SF)              | Brice Sensabaugh (SF/PF)    | <details><summary>Expand</summary><br>Whitehead is another player that I'm pretty down on. I guess it makes sense to take the swing on him given Brooklyn's back-to-back picks.</details>                                      |
-| 23             | Portland Trail Blazers | [Kris Murray](https://www.tankathon.com/players/kris-murray) (PF)                         | Brice Sensabaugh (SF/PF)    |                                                                                                                                                                                                                                |
-| 24             | Dallas Mavericks       | [Olivier Maxence Prosper](https://www.tankathon.com/players/olivier-maxence-prosper) (PF) | Brice Sensabaugh (SF/PF)    |                                                                                                                                                                                                                                |
-| 25             | Detroit Pstons         | [Marcus Sasser](https://www.tankathon.com/players/marcus-sasser) (PG/SG)                  | Brice Sensabaugh (SF/PF)    |                                                                                                                                                                                                                                |
-| 26             | Indiana Pacers         | [Ben Sheppard](https://www.tankathon.com/players/ben-sheppard) (SF)                       | Brice Sensabaugh (SF/PF)    |                                                                                                                                                                                                                                |
-| 27             | Charlotte Hornets      | [Nick Smith](https://www.tankathon.com/players/nick-smith) (PG/SG)                        | Leonard Miller (SF/PF)      | <details><summary>Expand</summary><br>If the Hornets don't pick Scoot at #2, I don't understand why they pick Nick Smith here. He's redundant with Terry Rozier and his ceiling is not better than Lamelo currently.</details> |
-| 28             | Utah Jazz              | [Brice Sensabaugh](https://www.tankathon.com/players/brice-sensabaugh) (SF/PF)            | Tristan Vukcevic (PF/C)     |                                                                                                                                                                                                                                |
-| 29             | Denver Nuggets         | [Julian Strawther](https://www.tankathon.com/players/julian-strawther) (SF)               | Trayce Jackson-Davis (PF/C) |                                                                                                                                                                                                                                |
-| 30             | Los Angeles Clippers   | [Kobe Brown](https://www.tankathon.com/players/kobe-brown) (PF/C)                         | Colby Jones (SF)            |                                                                                                                                                                                                                                |
+
+<div class="data-table-overflow">
+    <table>
+        <tr>
+            <th>Draft Position</th>
+            <th style="width: 25%">Picked For</th>
+            <th style="width: 25%">Actual Pick</th>
+            <th style="width: 25%">Personal Pick</th>
+            <th style="width: 25%">Notes</th>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Atlanta Hawks</td>
+            <td><a href="https://www.tankathon.com/players/kobe-bufkin">Kobe Bufkin</a> (PG/SG)</td>
+            <td>Cameron Whitmore (SG)</td>
+            <td><details><summary>Expand</summary><br>I was lower on Bufkin than most and I really don't see him thriving in this situation...</details></td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Utah Jazz</td>
+            <td><a href="https://www.tankathon.com/players/keyonte-george">Keyonte George</a> (SG)</td>
+            <td>Jalen Hood-Schifino (PG/SG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Los Angeles Lakers</td>
+            <td><a href="https://www.tankathon.com/players/jalen-hood-schifino">Jalen Hood-Schifino</a> (PG/SG)</td>
+            <td>Cameron Whitmore (SG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Miami Heat</td>
+            <td><a href="https://www.tankathon.com/players/jaime-jaquez">Jaime Jaquez</a> (SF)</td>
+            <td>Noah Clowney (PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Golden State Warriors</td>
+            <td><a href="https://www.tankathon.com/players/brandin-podziemski">Brandin Podziemski</a> (SG)</td>
+            <td>Leonard Miller (SF/PF)</td>
+            <td><details><summary>Expand</summary><br>Another one of my favorite players in the draft. Podz's strengths and weaknesses fit right into the Warrior's playing style.</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>20</td>
+            <td>Houston Rockets</td>
+            <td><a href="https://www.tankathon.com/players/cam-whitmore">Cameron Whitmore</a> (SF)</td>
+            <td><strong>Cameron Whitmore (SF)</strong></td>
+            <td><details><summary>Expand</summary><br>TBH, I never bought the Cam Whitmore hype, but if you're Houston you have to be ecstatic you get him at 20. Does he progress there though...?</details></td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Brooklyn Nets</td>
+            <td><a href="https://www.tankathon.com/players/noah-clowney">Noah Clowney</a> (PF)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>Brooklyn Nets</td>
+            <td><a href="https://www.tankathon.com/players/dariq-whitehead">Dariq Whitehead</a> (SG/SF)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td><details><summary>Expand</summary><br>Whitehead is another player that I'm pretty down on. I guess it makes sense to take the swing on him given Brooklyn's back-to-back picks.</details></td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>Portland Trail Blazers</td>
+            <td><a href="https://www.tankathon.com/players/kris-murray">Kris Murray</a> (PF)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>Dallas Mavericks</td>
+            <td><a href="https://www.tankathon.com/players/olivier-maxence-prosper">Olivier Maxence Prosper</a> (PF)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>Detroit Pistons</td>
+            <td><a href="https://www.tankathon.com/players/marcus-sasser">Marcus Sasser</a> (PG/SG)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>Indiana Pacers</td>
+            <td><a href="https://www.tankathon.com/players/ben-sheppard">Ben Sheppard</a> (SF)</td>
+            <td>Brice Sensabaugh (SF/PF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>Charlotte Hornets</td>
+            <td><a href="https://www.tankathon.com/players/nick-smith">Nick Smith</a> (PG/SG)</td>
+            <td>Leonard Miller (SF/PF)</td>
+            <td><details><summary>Expand</summary><br>If the Hornets don't pick Scoot at #2, I don't understand why they pick Nick Smith here. He's redundant with Terry Rozier and his ceiling is not better than Lamelo currently.</details></td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>Utah Jazz</td>
+            <td><a href="https://www.tankathon.com/players/brice-sensabaugh">Brice Sensabaugh</a> (SF/PF)</td>
+            <td>Tristan Vukcevic (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>Denver Nuggets</td>
+            <td><a href="https://www.tankathon.com/players/julian-strawther">Julian Strawther</a> (SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>Los Angeles Clippers</td>
+            <td><a href="https://www.tankathon.com/players/kobe-brown">Kobe Brown</a> (PF/C)</td>
+            <td>Colby Jones (SF)</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 Rounding out the first round, I was only in sync with the team GMs in one selection, Cam Whitmore to the Houston Rockets at pick #20.
 
 Going into the second round, beauty is more in the eye of the beholder and team strategy starts to come more into play. I don't expect to match many more picks, however I'm continuing to make selections to see if the players who I would have picked would've fared better than the ones that were.
 
 ## Second Round
-| Draft Position                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Picked For             | Actual Pick                                                                           | Personal Pick                   | Notes                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|---------------------------------------------------------------------------------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 31                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Charlotte Hornets      | [James Nnaji](https://www.tankathon.com/players/james-nnaji) (C)                      | Leonard Miller (SF/PF)          | <details><summary>Expand</summary><br>It seems that Charlotte always needs a center and this draft (outside of Wemby) is extremely short on them. Nnaji should provide some backup and I probably should've made this my pick.</details>     |
-| 32                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Denver Nuggets         | [Jalen Pickett](https://www.tankathon.com/players/jalen-pickett) (PG)                 | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 33                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Minnesota Timberwolves | [Leonard Miller](https://www.tankathon.com/players/leonard-miller) (SF/PF)            | Maxwell Lewis (SF)              |                                                                                                                                                                                                                                              |
-| 34                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Sacramento Kings       | [Colby Jones](https://www.tankathon.com/players/colby-jones) (SF)                     | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| 35                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Chicago Bulls          | [Julian Phillips](https://www.tankathon.com/players/julian-phillips) (SF)             | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| 36                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Milwaukee Bucks        | [Andre Jackson](https://www.tankathon.com/players/andre-jackson) (SG/SF)              | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| 37                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Denver Nuggets         | [Hunter Tyson](https://www.tankathon.com/players/hunter-tyson) (SF/PF)                | Trayce Jackson-Davis (PF/C)     | <details><summary>Expand</summary><br>I'm noticing that Denver is loading up on outside snipers...</details>                                                                                                                                 |
-| 38                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Boston Celtics         | [Jordan Walsh](https://www.tankathon.com/players/jordan-walsh) (SF/PF)                | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 39                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Boston Celtics         | [Mouhamed Gueye](https://www.tankathon.com/players/mouhamed-gueye) (PF)               | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| 40                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Los Angeles Lakers     | [Maxwell Lewis](https://www.tankathon.com/players/maxwell-lewis) (SF)                 | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 41                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Charlotte Hornets      | [Amari Bailey](https://www.tankathon.com/players/amari-bailey) (PG)                   | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| <tr class="table-highlight-row"><td>42</td><td>Washington Wizards</td><td>[Tristan Vukcevic](https://www.tankathon.com/players/tristan-vukcevic) (PF/C)</td><td>**Tristan Vukcevic (PF/C)**</td><td><details><summary>Expand</summary><br>Given the Coulibaly pick at #7, I figured the Wizards would look to do something similar as far as drafting a high, upside project. Although I think he may be too shooting one-dimensional.</details></td></tr> |
-| 43                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Portland Trail Blazers | [Rayan Rupert](https://www.tankathon.com/players/rayan-rupert) (SG/SF)                | Colin Castlenton (C)            |                                                                                                                                                                                                                                              |
-| 44                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | San Antonio Spurs      | [Sidy Cissoko](https://www.tankathon.com/players/sidy-cissoko) (SG)                   | Seth Lundy (SG/SF)              |                                                                                                                                                                                                                                              |
-| 45                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Memphis Grizzlies      | [GG Jackson](https://www.tankathon.com/players/gg-jackson) (PF)                    | Seth Lundy (SG/SF)              | <details><summary>Expand</summary><br>Was definitely curious where GG would land and I'll definitely be following his development from a far as he has both a low floor and a high ceiling in my opinion.</details>                          |
-| 46                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Atlanta Hawks          | [Seth Lundy](https://www.tankathon.com/players/seth-lundy) (SG/SF)                    | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 47                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Indiana Pacers         | [Mojave King](https://www.tankathon.com/players/mojave-king) (SG)                     | Adam Flagler (PG)               |                                                                                                                                                                                                                                              |
-| 48                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Los Angeles Clippers   | [Jordan Miller](https://www.tankathon.com/players/jordan-miller) (SF/PF)              | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 49                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Cleveland Cavaliers    | [Emoni Bates](https://www.tankathon.com/players/emoni-bates) (SG/SF)                  | Trayce Jackson-Davis (PF/C)     | <details><summary>Expand</summary><br>Similar to GG Jackson, I was also wondering where Emoni will land. Looks like Cleveland is taking the chance on him and are adding to their brigade of length.</details>                               |
-| 50                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Okalahoma City Thunder | [Keyontae Johnson](https://www.tankathon.com/players/keyontae-johnson) (SF)           | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 51                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Brooklyn Nets          | [Jalen Wilson](https://www.tankathon.com/players/jalen-wilson) (SF/PF)                | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 52                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Phoenix Suns           | [Toumani Camara](https://www.tankathon.com/players/toumani-camara) (PF)               | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 53                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Minnesota Timberwolves | [Jaylen Clark](https://www.tankathon.com/players/jaylen-clark) (SG/SF)                | Adam Flagler (PG)               |                                                                                                                                                                                                                                              |
-| 54                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Sacramento Kings       | [Jalen Slawson](https://www.tankathon.com/players/jalen-slawson) (PF)                 | Trayce Jackson-Davis (PF/C)     |                                                                                                                                                                                                                                              |
-| 55                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Indiana Pacers         | [Isaiah Wong](https://www.tankathon.com/players/isaiah-won) (SG)                      | Adam Flagler (PG)               |                                                                                                                                                                                                                                              |
-| 56                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Memphis Grizzlies      | Tarik Biberovic (SF)                                                                  | Trayce Jackson-Davis (PF/C)     | <details><summary>Expand</summary><br>Who?</details>                                                                                                                                                                                         |
-| <tr class="table-highlight-row"><td>57</td><td>Golden State Warriors</td><td>[Trayce Jackson-Davis](https://www.tankathon.com/players/trayce-jackson-davis) (PF/C)</td><td>**Trayce Jackson-Davis (PF/C)**</td><td></td></tr>                                                                                                                                                                                                                                              |
-| 58                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Milwaukee Bucks        | [Chris Livingston](https://www.tankathon.com/players/chris-livingston) (SF/PF)        | D'Moi Hodge                     |                                                                                                                                                                                                                                              |
+
+<div class="data-table-overflow">
+    <table>
+        <tr>
+            <th>Draft Position</th>
+            <th style="width: 25%">Picked For</th>
+            <th style="width: 25%">Actual Pick</th>
+            <th style="width: 25%">Personal Pick</th>
+            <th style="width: 25%">Notes</th>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>Charlotte Hornets</td>
+            <td><a href="https://www.tankathon.com/players/james-nnaji">James Nnaji</a> (C)</td>
+            <td>Leonard Miller (SF/PF)</td>
+            <td><details><summary>Expand</summary><br>It seems that Charlotte always needs a center and this draft (outside of Wemby) is extremely short on them. Nnaji should provide some backup and I probably should've made this my pick.</details></td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td>Denver Nuggets</td>
+            <td><a href="https://www.tankathon.com/players/jalen-pickett">Jalen Pickett</a> (PG)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td>Minnesota Timberwolves</td>
+            <td><a href="https://www.tankathon.com/players/leonard-miller">Leonard Miller</a> (SF/PF)</td>
+            <td>Maxwell Lewis (SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>Sacramento Kings</td>
+            <td><a href="https://www.tankathon.com/players/colby-jones">Colby Jones</a> (SF)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>Chicago Bulls</td>
+            <td><a href="https://www.tankathon.com/players/julian-phillips">Julian Phillips</a> (SF)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>36</td>
+            <td>Milwaukee Bucks</td>
+            <td><a href="https://www.tankathon.com/players/andre-jackson">Andre Jackson</a> (SG/SF)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>Denver Nuggets</td>
+            <td><a href="https://www.tankathon.com/players/hunter-tyson">Hunter Tyson</a> (SF/PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td><details><summary>Expand</summary><br>I'm noticing that Denver is loading up on outside snipers...</details></td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>Boston Celtics</td>
+            <td><a href="https://www.tankathon.com/players/jordan-walsh">Jordan Walsh</a> (SF/PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>Boston Celtics</td>
+            <td><a href="https://www.tankathon.com/players/mouhamed-gueye">Mouhamed Gueye</a> (PF)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>Los Angeles Lakers</td>
+            <td><a href="https://www.tankathon.com/players/maxwell-lewis">Maxwell Lewis</a> (SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>41</td>
+            <td>Charlotte Hornets</td>
+            <td><a href="https://www.tankathon.com/players/amari-bailey">Amari Bailey</a> (PG)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>42</td>
+            <td>Washington Wizards</td>
+            <td><a href="https://www.tankathon.com/players/tristan-vukcevic">Tristan Vukcevic</a> (PF/C)</td>
+            <td><strong>Tristan Vukcevic (PF/C)</strong></td>
+            <td><details><summary>Expand</summary><br>Given the Coulibaly pick at #7, I figured the Wizards would look to do something similar as far as drafting a high, upside project. Although I think he may be too shooting one-dimensional.</details></td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>Portland Trail Blazers</td>
+            <td><a href="https://www.tankathon.com/players/rayan-rupert">Rayan Rupert</a> (SG/SF)</td>
+            <td>Colin Castlenton (C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>San Antonio Spurs</td>
+            <td><a href="https://www.tankathon.com/players/sidy-cissoko">Sidy Cissoko</a> (SG)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>Memphis Grizzlies</td>
+            <td><a href="https://www.tankathon.com/players/gg-jackson">GG Jackson</a> (PF)</td>
+            <td>Seth Lundy (SG/SF)</td>
+            <td><details><summary>Expand</summary><br>Was definitely curious where GG would land and I'll definitely be following his development from afar as he has both a low floor and a high ceiling in my opinion.</details></td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>Atlanta Hawks</td>
+            <td><a href="https://www.tankathon.com/players/seth-lundy">Seth Lundy</a> (SG/SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+               <tr>
+            <td>47</td>
+            <td>Indiana Pacers</td>
+            <td><a href="https://www.tankathon.com/players/mojave-king">Mojave King</a> (SG)</td>
+            <td>Adam Flagler (PG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>48</td>
+            <td>Los Angeles Clippers</td>
+            <td><a href="https://www.tankathon.com/players/jordan-miller">Jordan Miller</a> (SF/PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>49</td>
+            <td>Cleveland Cavaliers</td>
+            <td><a href="https://www.tankathon.com/players/emoni-bates">Emoni Bates</a> (SG/SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td><details><summary>Expand</summary><br>Similar to GG Jackson, I was also wondering where Emoni will land. Looks like Cleveland is taking the chance on him and are adding to their brigade of length.</details></td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>Oklahoma City Thunder</td>
+            <td><a href="https://www.tankathon.com/players/keyontae-johnson">Keyontae Johnson</a> (SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>Brooklyn Nets</td>
+            <td><a href="https://www.tankathon.com/players/jalen-wilson">Jalen Wilson</a> (SF/PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>Phoenix Suns</td>
+            <td><a href="https://www.tankathon.com/players/toumani-camara">Toumani Camara</a> (PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>53</td>
+            <td>Minnesota Timberwolves</td>
+            <td><a href="https://www.tankathon.com/players/jaylen-clark">Jaylen Clark</a> (SG/SF)</td>
+            <td>Adam Flagler (PG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>54</td>
+            <td>Sacramento Kings</td>
+            <td><a href="https://www.tankathon.com/players/jalen-slawson">Jalen Slawson</a> (PF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>Indiana Pacers</td>
+            <td><a href="https://www.tankathon.com/players/isaiah-wong">Isaiah Wong</a> (SG)</td>
+            <td>Adam Flagler (PG)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>56</td>
+            <td>Memphis Grizzlies</td>
+            <td>Tarik Biberovic (SF)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td><details><summary>Expand</summary><br>Who?</details></td>
+        </tr>
+        <tr class="table-highlight-row">
+            <td>57</td>
+            <td>Golden State Warriors</td>
+            <td><a href="https://www.tankathon.com/players/trayce-jackson-davis">Trayce Jackson-Davis</a> (PF/C)</td>
+            <td>Trayce Jackson-Davis (PF/C)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>58</td>
+            <td>Milwaukee Bucks</td>
+            <td><a href="https://www.tankathon.com/players/chris-livingston">Chris Livingston</a> (SF/PF)</td>
+            <td>D'Moi Hodge</td>
+            <td></td>
+        </tr>
+    </table>
+</div>
 
 Turns out I was in sync with two selections. The Wizards selection of Tristan Vukcevic at pick #42 and FINALLY Trayce Jackson-Davis got selected with the second to last pick #57 to the Golden State Warriors. I see that as mathematically the steal of the draft as I think he'll be able to produce valuably as a role-player off the bench in his first few seasons.
 
 At the conclusion of the draft there were only three players I would've selected that did not get selected. Those players are the following:
-* [Colin Castleton](https://www.tankathos.com/players/colin-castleton) (C)
-* [Adam Flagler](https://www.tankathos.com/players/adam-flagler) (PG)
-* D'Moi Hodge (SG)
+
+- [Colin Castleton](https://www.tankathos.com/players/colin-castleton) (C)
+- [Adam Flagler](https://www.tankathos.com/players/adam-flagler) (PG)
+- D'Moi Hodge (SG)
 
 This was definitely a fun exercise and I can't wait until next year where I get to both do it again, and evaluate my results after a season.
