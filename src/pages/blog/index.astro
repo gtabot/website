@@ -7,14 +7,13 @@ const posts = await getCollection("blog");
 
 <MainLayout title="Blog">
     <ul>
-        {posts.map((post) => {
-            const [year, month] = post.data.date.split('-');
-            const link = `blog/${year}/${month}/${post.slug}`;
-            return (
-                    <li key={post.id}>
-                        <a href={link}>{post.data.title}</a>
-                    </li>
-            );
-        })}
+        {posts
+            .filter((post) => post.data.published)
+            .sort((a, b) =>  b.data.date.localeCompare(a.data.date))
+            .map((post) => {
+                const [year, month] = post.data.date.split('-');
+                const link = `blog/${year}/${month}/${post.slug}`;
+                return (<li key={post.id}><a href={link}>{post.data.title}</a></li>);
+            })}
     </ul>
 </MainLayout>

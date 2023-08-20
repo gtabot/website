@@ -1,5 +1,6 @@
 ---
 import Main from "./MainLayout.astro";
+import BlogPrevNextPost from "../components/BlogPrevNextPost.astro";
 
 const { title, description, frontmatter } = Astro.props;
 ---
@@ -19,16 +20,18 @@ const { title, description, frontmatter } = Astro.props;
             </div>
         </div>
         <div class="image">
-            <img src={frontmatter.header_image.src} />
-            <p class="image-credit">Image Credit: Gregg Tabot / Stable Diffusion</p>
+            <img src={frontmatter.hero_image.src} />
+            <p class="image-credit">{frontmatter.hero_image.credit}</p>
         </div>
     </div>
     <div id="blog-content">
         <slot />
     </div>
+    <hr>
+    <BlogPrevNextPost />
 </Main>
 
-<style>
+<style lang="scss">
     #blog-header .meta {
         margin-bottom: 1em;
     }
@@ -40,5 +43,13 @@ const { title, description, frontmatter } = Astro.props;
     #blog-header .image img {
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    #blog-content p {
+        text-align: justify;
+    }
+
+    hr {
+        margin: 2em 0 1em 0;
     }
 </style>

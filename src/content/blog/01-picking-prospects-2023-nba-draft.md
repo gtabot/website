@@ -1,12 +1,15 @@
 ---
 published: true
-layout: ../../layouts/BlogPostLayout.astro
+layout: "../../layouts/BlogPostLayout.astro"
 slug: "picking-prospects-2023-nba-draft"
-title: Picking Prospects for the 2023 NBA Draft
-author: Gregg Tabot
+title: "Picking Prospects for the 2023 NBA Draft"
+author: "Gregg Tabot"
 date: "2023-06-23"
-tags: [NBA Draft, NBA, basketball, predictions, sports]
-header_image: { src: /images/blog/001-header.png }
+tags: ["NBA Draft", "NBA", "basketball", "predictions", "sports"]
+hero_image: { 
+  src: "/images/blog/001-hero.png",
+  credit: "Image Credit: Gregg Tabot / Stable Diffusion"
+}
 ---
 
 Earlier this January, I found myself in the extremely lucky and fortunate position to be working as a Machine Learning Consultant/Analyst for a professional sports team, my favorite team of all of sports, the [Washington Wizards](https://en.wikipedia.org/wiki/Washington_Wizards). At the moment, I am still working with them and am under an NDA contract so I can't speak much about that work specifically.
