@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import MainLayout from "../../layouts/MainLayout.astro";
+import { slug } from "../../utils/blogPosts";
 
 const posts = await getCollection("blog");
 ---
@@ -11,8 +12,7 @@ const posts = await getCollection("blog");
             .filter((post) => post.data.published)
             .sort((a, b) =>  b.data.date.localeCompare(a.data.date))
             .map((post) => {
-                const [year, month] = post.data.date.split('-');
-                const link = `blog/${year}/${month}/${post.slug}`;
+                const link = `blog/${slug(post)}`;
                 return (<li key={post.id}><a href={link}>{post.data.title}</a></li>);
             })}
     </ul>

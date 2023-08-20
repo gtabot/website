@@ -1,18 +1,26 @@
 ---
+import {slug} from "../utils/blogPosts";
+const { prevBlogPost, nextBlogPost } = Astro.props;
 ---
 
 <div id="blog-prev-next">
-    <a href="#" title="Description of blog post goes here">
-        <div id="blog-prev" class="blog-div" style="background-image: url(http://localhost:3000/images/blog/001-hero.png)">
-            <span>← Previous Blog Post</span>
-        </div>
-    </a>
+    {
+        prevBlogPost ? (
+            <a id="blog-prev" class="blog-div" href=`blog/${slug(prevBlogPost)}` title={prevBlogPost.data.title}
+               style={{ backgroundImage: `url(${prevBlogPost.data.hero_image.src})` }}>
+                <span>← Previous Blog Post</span>
+            </a>
+        ) : (<div class="blog-div"/>)
+    }
     <a id="blog-all" class="blog-link" href="/blog">All Blog Posts</a>
-    <a href="#" title="Description of blog post goes here">
-        <div id="blog-next" class="blog-div" style="background-image: url(http://localhost:3000/images/blog/001-hero.png)">
-            <span>Next Blog Post →</span>
-        </div>
-    </a>
+    {
+        nextBlogPost ? (
+            <a id="blog-next" class="blog-div" href=`blog/${slug(nextBlogPost)}` title={nextBlogPost.data.title}
+               style={{ backgroundImage: `url(${nextBlogPost.data.hero_image.src})` }}>
+                <span>Next Blog Post →</span>
+            </a>
+        ) : (<div class="blog-div"/>)
+    }
 </div>
 
 <style lang="scss">
@@ -28,7 +36,7 @@
     text-decoration: none;
   }
 
-  .blog-link, a .blog-div {
+  a.blog-link, a.blog-div {
     text-align: center;
     font-weight: bold;
   }
